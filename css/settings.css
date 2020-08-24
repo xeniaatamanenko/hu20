@@ -1,0 +1,345 @@
+/* my_presets *//* michael-k90 *//* endzeit_____ */
+.m1-form input.field:focus::-webkit-input-placeholder {opacity:0;}
+.m1-form input.field:focus::-moz-placeholder          {opacity:0;}
+.m1-form input.field:focus:-moz-placeholder           {opacity:0;}
+.m1-form input.field:focus:-ms-input-placeholder      {opacity:0;}
+.m1-form input.field::-webkit-input-placeholder {color: #727272; opacity: 1;}
+.m1-form input.field:-moz-placeholder {color: #727272; opacity: 1;}
+.m1-form input.field::-moz-placeholder {color: #727272; opacity: 1;}
+.m1-form input.field:-ms-input-placeholder {color: #727272; opacity: 1;}
+.hidden{display: none;}
+.left{float: left;}
+.right{float: right;}
+.center{text-align: center;}
+.just {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+.clearfix:after, .topplus li:after{content: '';display: block;clear: both;}
+.clear{clear: both;height: 0px;}
+.ulfix {font-size: 0;}
+/* END my_presets */
+
+h1,h2,h3,h4,h5,h6{font-family: 'Proxima Nova', Helvetica, sans-serif; font-weight: 700; text-transform: uppercase;line-height: 1.2em;}
+b,strong{font-weight: 700;}
+body{
+    width: 100%;
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px auto;
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #101010;
+    background: #fff;
+}
+section{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.wrap{
+    width: 960px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.wrap:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.nopad {
+    padding: 0;
+}
+.m1-form input.field{
+    position: relative;
+    display: block;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto 10px;
+    padding: 0 20px;
+    background:#fff;
+    font-size: 18px;
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    font-weight: 400;
+    color: #222;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    -ms-transition:     all 0.2s;
+    transition:         all 0.2s;
+}
+.button-m{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    border: 1px solid #faa31f;
+    border-bottom: 1px solid #f3901a;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0 2px 0 #e77200;
+    color: #fff;
+    background: rgb(249,152,6);
+background: -moz-linear-gradient(top, rgba(249,152,6,1) 0%, rgba(242,131,0,1) 100%);
+background: -webkit-linear-gradient(top, rgba(249,152,6,1) 0%,rgba(242,131,0,1) 100%);
+background: linear-gradient(to bottom, rgba(249,152,6,1) 0%,rgba(242,131,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f99806', endColorstr='#f28300',GradientType=0 );
+        
+    -webkit-box-shadow: 0 5px 0 0 #e77200, 0 23px 8px -13px rgba(0,0,0,.4);
+            box-shadow: 0 5px 0 0 #e77200, 0 23px 8px -13px rgba(0,0,0,.4);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.button-m:hover{
+    background: rgb(249,155,15);
+background: -moz-linear-gradient(top, rgba(249,155,15,1) 0%, rgba(250,133,0,1) 100%);
+background: -webkit-linear-gradient(top, rgba(249,155,15,1) 0%,rgba(250,133,0,1) 100%);
+background: linear-gradient(to bottom, rgba(249,155,15,1) 0%,rgba(250,133,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f99b0f', endColorstr='#fa8500',GradientType=0 );
+}
+.button-m:active{
+     -webkit-box-shadow: 0 3px 0 0 #e77200, 0 21px 8px -13px rgba(0,0,0,.4);
+             box-shadow: 0 3px 0 0 #e77200, 0 21px 8px -13px rgba(0,0,0,.4);
+    top:2px;
+}
+.m1-form {
+    width: 300px;
+    margin: 0 auto;
+}
+.m1-form .button-m{
+    width: 100%;
+}
+h2.title{
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1em;
+}
+h2.title>span{
+    color: #f59606;
+}
+.price {
+    width: 300px;
+    margin: 0 auto 10px;
+    text-align: center;
+    background: url(../img/price.png) no-repeat center top;
+    height: 64px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.old-cost {
+    float: left;
+}
+.old-cost p {
+    font-size: 24px;
+    line-height: 18px;
+}
+.old-cost p span {
+    text-decoration: line-through;
+}
+.old-cost > span, .new-cost > span {
+    font-size: 12px;
+}
+.new-cost {
+    float: right;
+    color:#fff;
+}
+.new-cost p {
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+}
+.new-cost, .old-cost  {
+    width: 50%;
+    padding-top: 8px;
+}
+.old-cost p small, .new-cost p small {
+    font-size: 1em;
+    
+}
+
+/*Таймер*/
+.countbox:before {
+    content: 'До конца акции осталось:';
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color:#fff;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+.countbox {
+    height: 91px;
+    width: 235px;
+    padding-left: 0;
+    position: absolute;
+    top: -59px;
+    left: 42px;
+}
+.countbox > div:last-child {
+    margin: 0;    
+}
+.countbox > div:first-child {
+    margin-left: 0;    
+}
+.countbox .countbox-num {
+    float: left;
+    width: 63px;
+    height: 63px;
+    background: url(../img/timer.png) no-repeat 0 0;
+    margin-right: 23px;
+}
+.countbox-hours, .countbox-mins, .countbox-secs {
+    color: #f99806;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 13px;
+    position: relative;
+}
+.countbox-hours:after,
+.countbox-mins:after {
+    content:':';
+    display: block;
+    color:#fff;
+    position: absolute;
+    top:20px;
+    right: -14px;
+    font-weight: 400;
+}
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+/* Arrows */
+.reviews .slick-prev,
+.reviews .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 68px;
+    display: block;
+    width: 26px;
+    height: 98px;
+    padding: 0;    
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: url(../img/ar.png) no-repeat 0 0;
+    z-index: 3;
+}
+.reviews .slick-prev{
+    left: 10px;
+}
+.reviews .slick-next{
+    right: 10px;
+    -moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+
+.gallery .slick-prev,
+.gallery .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 57px;
+    height: 57px;
+    margin-top: -22px;
+    border-radius: 50%;
+    padding: 0;    
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background:rgba(0,0,0,0.4) url(../img/arrow.png) no-repeat center center;
+    z-index: 3;
+}
+.gallery .slick-prev{
+    left: 20px;
+}
+.gallery .slick-next{
+    right: 20px;
+    -moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+
+/* Dots */
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -40px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    margin: 0 5px;
+    display: inline-block;
+}
+.slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+    font-size: 0;
+    background: #ccc;
+}
+.slick-dots li button:before { 
+    display:none;
+}
+.slick-dots li.slick-active button {
+    background: #dc3b46;
+}
+
+@media screen and (max-width: 976px) {
+    .wrap{
+        width: 640px;
+    }
+}
+@media screen and (max-width: 659px) {
+    .wrap{
+        width: 320px;
+    }
+    
+}
